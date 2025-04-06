@@ -1,7 +1,12 @@
-meaning = 42
+first = 'nion'
+last = 'abrar'
 
-if meaning > 40 :
-    print ('ok')
+print (type(first))
+print (type(first) == str )
+print (isinstance(first,str))
 
-else :
-    print ('no')
+pizza = "pep"
+
+print (type(pizza ))
+print (type(pizza) == str )
+print (isinstance(pizza,str))
